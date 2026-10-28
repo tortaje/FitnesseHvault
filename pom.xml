@@ -6,7 +6,7 @@
 
   <groupId>io.github.tortaje</groupId>
   <artifactId>fitnesse-hvault</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>fitnesse-hvault</name>
   <description>FitNesse fixture that reads HashiCorp Vault KV v2 secrets into an in-memory registry, never exposing values on wiki pages.</description>
@@ -32,7 +32,7 @@
     <connection>scm:git:https://github.com/tortaje/FitnesseHvault.git</connection>
     <developerConnection>scm:git:https://github.com/tortaje/FitnesseHvault.git</developerConnection>
     <url>https://github.com/tortaje/FitnesseHvault</url>
-    <tag>HEAD</tag>
+    <tag>v1.0.0</tag>
   </scm>
 
   <issueManagement>

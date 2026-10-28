@@ -1,0 +1,13 @@
+# Service account the FitNesse pod runs under.
+# Its token (mounted automatically at /var/run/secrets/kubernetes.io/serviceaccount/token)
+# is presented to Vault by the fixture.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fitnesse
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: fitnesse
+  namespace: fitnesse
